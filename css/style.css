@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ora impostiamo la palette di colori con variabili CSS */
+:root {
+    --primary-color: #2E45CC;
+    --secondary-color: #04DF6C;
+    --background-color: #f5f5f5;
+    --text-color: #3D3A38;
+    --accent-color: #50e3c2;
+}
