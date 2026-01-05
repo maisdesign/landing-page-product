@@ -18,8 +18,8 @@
         rel="stylesheet">
 </head>
 
-<body>
-    <div class="container-fluid my-5 p-0">
+<body id="top">
+        <header class="container-fluid my-5 p-0" >
         <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Duck Logo"></a>
@@ -32,7 +32,7 @@
                 <div class="collapse navbar-collapse flex-column" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#top">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#punti-di-forza">I punti di forza</a>
@@ -71,8 +71,10 @@
                 </div>
             </div>
         </div><!-- .hero  -->
+        </header>
+        <main class="container-fluid p-0 m-0">
         <!-- TODO Sezione punti di forza a 3 colonne con immagine occupante colonna di mezzo -->
-        <div class="sell-points row mx-auto container" id="punti-di-forza">
+        <section class="sell-points row mx-auto container" id="punti-di-forza">
             <div class="col-md-4 col-12 text-center p-4">
                 <div class="reason-item">
                     <h3>Lunga Durata della Batteria</h3>
@@ -116,10 +118,10 @@
                         anti-stress, senza bisogno di software complicati.</p>
                 </div>
             </div>
-        </div><!-- .sell-points  -->
+        </section><!-- .sell-points  -->
 
         <!-- TODO zona review con slider -->
-        <div class="container my-5 mx-auto container" id="recensioni">
+        <section class="container my-5 mx-auto container" id="recensioni">
             <h2 class="text-center mb-4">Cosa ne pensano i nostri sviluppatori</h2>
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
@@ -237,9 +239,9 @@
                 <div class="swiper-button-next"></div>
 
             </div><!-- .swiper -->
-        </div><!-- .container #recensioni-->
+        </section><!-- .container #recensioni-->
         <!-- TODO area collezione -->
-        <div class="container my-5 collection-area mx-auto" id="paperelle">
+        <section class="container my-5 collection-area mx-auto" id="paperelle">
             <h2 class="text-center mb-4">La collezione di paperelle</h2>
             <p class="text-center mb-4">Una paperella per ogni stile di programmazione</p>
             <div class="row">
@@ -322,9 +324,9 @@
                     </figure>
                 </div><!-- .col-md-4 -->
             </div><!-- .row -->
-        </div><!-- .collection-area -->
+        </section><!-- .collection-area -->
         <!-- TODO area FAQ con accordion -->
-        <div class="row mx-auto container" id="faqs">
+        <section class="row mx-auto container" id="faqs">
             <div class="container my-5 col-md-6 col-12 mx-0 p-0">
                 <img src="img/single-image2.png" alt="FAQ Image" class="img-fluid" />
             </div>
@@ -401,9 +403,9 @@
                     </div><!-- .accordion-item -->
                 </div><!-- .accordion -->
             </div><!-- .container #faqs -->
-        </div><!-- .row #faqs -->
+        </section><!-- .row #faqs -->
         <!-- TODO bullet points -->
-        <div class="container my-5 row mx-auto" id="bullet-points">
+        <section class="container my-5 row mx-auto" id="bullet-points">
             <div class="col-12 col-md-4 text-center p-4">
                 <svg class="bullet-icon">
                     <use href="assets/icons.svg#balloon"></use>
@@ -428,9 +430,9 @@
                 <p>Il nostro team di assistenza clienti è sempre pronto ad aiutarti con qualsiasi domanda o problema
                     riguardante il tuo acquisto.</p>
             </div>
-        </div><!-- .container #bullet-points -->
+        </section><!-- .container #bullet-points -->
         <!-- TODO area newsletter con form -->
-        <div class="container my-5 row mx-auto col-12 col-lg-6" id="newsletter">
+        <footer class="container my-5 row mx-auto col-12 col-lg-6" id="newsletter">
             <div class="col-12 col-md-6 mx-auto text-center p-4">
                 <h2>Iscriviti alla nostra Newsletter</h2>
                 <p>Rimani aggiornato sulle ultime novità, offerte esclusive e consigli utili sul debugging con la
@@ -442,8 +444,8 @@
                     <button type="submit" class="btn btn-primary">Iscriviti</button>
                 </form>
             </div>
-        </div><!-- .container #newsletter -->
-    </div><!-- .container-fluid -->
+        </footer><!-- .container #newsletter -->
+    </main><!-- .container-fluid -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
