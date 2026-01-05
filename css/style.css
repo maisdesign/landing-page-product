@@ -92,9 +92,9 @@ p {
     height: 48px;
     /*
     * MANNAGGIA A ME
-    * fill: var(--primary-color);
+    fill: var(--primary-color);
     * stroke: var(--primary-color);
     */
-    color: var(--primary-color)
+    color: var(--primary-color);
     margin-bottom: 12px;
 }
