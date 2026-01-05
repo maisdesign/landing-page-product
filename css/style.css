@@ -105,6 +105,14 @@ p {
 }
 
 /*
+* Correzione scroll-margin per sezioni
+*
+*/
+section {
+  scroll-margin-top: 80px; /* Altezza navbar + padding */
+}
+
+/*
 * NAVBAR + OFFCANVAS
 *
 */
