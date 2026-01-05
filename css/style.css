@@ -16,6 +16,12 @@ body {
     font-size: 16px;
 }
 
+
+/*
+* TYPOGRAPHY STYLES
+*
+*/
+
 body,
 p,
 a,
@@ -63,6 +69,11 @@ p {
     font-size: 1.2rem;
 }
 
+/*
+* ICONS STYLES
+*
+*/
+
 .rating-icon{
     width: 24px;
     height: 24px;
@@ -91,4 +102,56 @@ p {
     */
     color: var(--primary-color);
     margin-bottom: 12px;
+}
+
+/*
+* NAVBAR + OFFCANVAS
+*
+*/
+
+@media (min-width: 992px) {
+  .navbar-nav {
+    flex-direction: row;
+    gap: 2rem; /* spazio tra i link */
+  }
+}
+
+/* Offcanvas sidebar verticale */
+.offcanvas-body .navbar-nav {
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.offcanvas-body .nav-link {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+/* Desktop navbar orizzontale */
+@media (min-width: 992px) {
+  #navbarDesktop .navbar-nav {
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+}
+
+/* Offcanvas mobile verticale con padding */
+.offcanvas-body .navbar-nav {
+  flex-direction: column;
+  gap: 0;
+}
+
+.offcanvas-body .nav-link {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.2s;
+}
+
+.offcanvas-body .nav-link:hover {
+  background-color: #f8f9fa;
+}
+
+.offcanvas-body .nav-link.active {
+  color: var(--primary-color);
+  text-decoration: none;
 }
