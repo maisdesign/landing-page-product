@@ -1,40 +1,450 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Boolean landing page</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubber Duck Debuggings</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/swiper.css">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
-  
-<!-- Slider main container -->
-<div class="swiper">
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
-    <!-- Slides -->
-    <div class="swiper-slide">Slide 1</div>
-    <div class="swiper-slide">Slide 2</div>
-    <div class="swiper-slide">Slide 3</div>
-    ...
-  </div>
-  <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
+    <div class="container-fluid my-5 p-0">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Duck Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- TODO La navbar deve essere verticale e contenere il logo -->
+                <div class="collapse navbar-collapse flex-column" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#punti-di-forza">I punti di forza</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#recensioni">Recensioni</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#paperelle">Paperelle</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faqs">FAQs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#newsletter">Newsletter</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav><!-- .navbar  -->
 
-  <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
+        <!-- TODO area hero con titolo, descrizione e bottone di acquisto 2 immagini affiancate che si mettono in colonna su mobile-->
+        <div class="hero align-items-center m-0 p-0">
+            <div class="hero-images row m-0 p-0">
+                <div class="col-md-6 col-12 m-0 p-0">
+                    <img src="img/banner-image.png" alt="Rubber Duck" class="img-fluid">
+                </div>
+                <div class="col-md-6 col-12 position-relative m-0 p-0">
+                    <img src="img/banner-bg.png" alt="Code Example" class="img-fluid">
+                    <div class="overlay position-absolute top-50 start-50 translate-middle text-center text-white p-3">
+                        <h1>Rubber Duck Debuggings</h1>
+                        <p>Spiegare il codice ad una paperella di gomma aiuta i programmatori a chiarire il pensiero e
+                            individuare errori nascosti.</p>
+                        <a href="#" class="btn btn-outline-dark">ACQUISTALO SUBITO!</a>
+                    </div>
+                </div>
+            </div>
+        </div><!-- .hero  -->
+        <!-- TODO Sezione punti di forza a 3 colonne con immagine occupante colonna di mezzo -->
+        <div class="sell-points row mx-auto container" id="punti-di-forza">
+            <div class="col-md-4 col-12 text-center p-4">
+                <div class="reason-item">
+                    <h3>Lunga Durata della Batteria</h3>
+                    <p>Goditi ore di assistenza continua nella risoluzione dei bug grazie alla lunga durata della
+                        "batteria"
+                        (ovvero, la tua pazienza) della paperella di gomma.</p>
+                </div>
+                <div class="reason-item">
+                    <h3>Compatibilità Universale</h3>
+                    <p>Funziona con tutti i linguaggi di programmazione e sistemi operativi, la paperella di gomma è
+                        l'unico
+                        strumento di debugging che non necessita di aggiornamenti.</p>
+                </div>
+                <div class="reason-item">
+                    <h3>Design Elegante</h3>
+                    <p>Mostra con orgoglio il design elegante e rafffinato della tua paperella di gomma, disponibile in
+                        vari
+                        colori per abbinarsi al tuo stile di programmatore.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 text-center p-4">
+                <img src="img/invisible.png" alt="Rubber Duck Feature" class="img-fluid">
+            </div>
+            <div class="col-md-4 col-12 text-center p-4">
+                <div class="reason-item">
+                    <h3>Resistente agli Spruzzi</h3>
+                    <p>Perfetta per resistere ai piccoli incidenti con caffé e bevande, la tua paperella di gomma non
+                        teme
+                        schizzi, mantenedoti sempre pronto per il debugging.</p>
+                </div>
+                <div class="reason-item">
+                    <h3>Portabilità</h3>
+                    <p>Leggera e facile da trasportare, la paperella di gomma può essere il tuo compagno di lavoro
+                        ovunque
+                        tu vada. Portala con te per un supporto costante.</p>
+                </div>
+                <div class="reason-item">
+                    <h3>Promemoria Anti-Stress</h3>
+                    <p>Quando lo stress del codice diventa troppo, spremi la tua paperella di gomma per un rapido
+                        sollievo
+                        anti-stress, senza bisogno di software complicati.</p>
+                </div>
+            </div>
+        </div><!-- .sell-points  -->
 
-  <!-- If we need scrollbar -->
-  <div class="swiper-scrollbar"></div>
-</div>
+        <!-- TODO zona review con slider -->
+        <div class="container my-5 mx-auto container" id="recensioni">
+            <h2 class="text-center mb-4">Cosa ne pensano i nostri sviluppatori</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card p-4">
+                            <p>"La paperella di gomma è diventata il mio strumento di debugging preferito. Spiegare i
+                                problemi al mio 'assistente' silenzioso mi ha aiutato a risolvere bug che altrimenti mi
+                                avrebbero fatto impazzire. È anche un ottimo antistress nelle giornate difficili!
+                                David William"</p>
+                            <h5>David William - Feb 22, 2023</h5>
+                            <div class="rating">
+                                <svg class="rating-icon">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                            </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-<script src="js/main.js"></script>
-<script src="js/swiper.js"></script>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card p-4">
+                            <p>"Non avrei mai immaginato quanto una semplice paperella di gomma potesse fare la
+                                differenza. È incredibile come verbalizzare i problemi davanti alla paperella mi aiuti a
+                                vedere soluzioni che prima non notavo. Inoltre, è carinissima sulla mia scrivania!
+                                "</p>
+                            <h5>Emma Turner - April 5, 2023</h5>
+                            <div class="rating">
+                                <svg class="rating-icon">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card p-4">
+                            <p>"Da quando ho adottato la paperella di gomma, il mio processo di debugging è migliorato
+                                notevolmente. La trovo molto utile per schiarirmi le idee e trovare errori nascosti. La
+                                porto sempre con me, ovunque vada!
+                                "</p>
+                            <h5>Rachel Bryan - April 18, 2023</h5>
+                            <div class="rating">
+                                <svg class="rating-icon">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card p-4">
+                            <p>"La mia paperella di gomma è il miglior collega che potessi chiedere. Sempre pronta ad
+                                ascoltare, mai giudicante. È sorprendente come qualcosa di così semplice possa essere
+                                così efficace nel risolvere problemi complessi. E non dimentichiamo che è anche
+                                adorabile!
+                                "</p>
+                            <h5>Park C - May 22, 2023</h5>
+                            <div class="rating">
+                                <svg class="rating-icon">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Aggiungi altre recensioni qui -->
+                </div><!-- .swiper-wrapper -->
+                <div class="swiper-pagination"></div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div><!-- .swiper -->
+        </div><!-- .container #recensioni-->
+        <!-- TODO area collezione -->
+        <div class="container my-5 collection-area mx-auto" id="paperelle">
+            <h2 class="text-center mb-4">La collezione di paperelle</h2>
+            <p class="text-center mb-4">Una paperella per ogni stile di programmazione</p>
+            <div class="row">
+                <div class="col-md-4 col-12 mb-4">
+                    <figure>
+                        <img src="img/product-item1.png" class="card-img-top" alt="cool-duck">
+                        <figcaption>
+                            <div class="rating">
+                                <svg class="rating-icon mini">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon mini">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon mini">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon mini">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon mini">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                            </div>
+                            <p class="duck-name">Cool Duck</p>
+                            <p class="duck-price">$15</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4 col-12 mb-4">
+                    <figure>
+                        <img src="img/product-item2.png" class="card-img-top" alt="Classic-duck">
+                        <figcaption>
+                            <div class="rating">
+                                <svg class="rating-icon mini">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon mini">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon mini">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon mini">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon mini">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                            </div>
+                            <p class="duck-name">Classic Duck</p>
+                            <p class="duck-price">$29</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4 col-12 mb-4">
+                    <figure>
+                        <img src="img/product-item3.png" class="card-img-top" alt="Bat-duck">
+                        <figcaption>
+                            <div class="rating">
+                                <svg class="rating-icon mini">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon mini">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon mini">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon mini">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                                <svg class="rating-icon mini">
+                                    <use href="assets/icons.svg#star-fill"></use>
+                                </svg>
+                            </div>
+                            <p class="duck-name">Bat Duck</p>
+                            <p class="duck-price">$69</p>
+                        </figcaption>
+                    </figure>
+                </div><!-- .col-md-4 -->
+            </div><!-- .row -->
+        </div><!-- .collection-area -->
+        <!-- TODO area FAQ con accordion -->
+        <div class="row mx-auto container" id="faqs">
+            <div class="container my-5 col-md-6 col-12 mx-0 p-0">
+                <img src="img/single-image2.png" alt="FAQ Image" class="img-fluid" />
+            </div>
+            <div class="container my-5 col-md-6 col-12 mx-0 p-0">
+                <h2 class="text-center mb-4">Domande Frequenti</h2>
+                <div class="accordion" id="faqAccordion">
+                    <!-- FAQ items will go here -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
+                                Come posso utilizzare la paperella di gomma per il debugging?
+                            </button>
+                        </h2>
+                        <div id="faqCollapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="faqHeadingOne" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Il rubber duck debugging è semplice: spiega il tuo codice alla paperella di gomma come
+                                se fosse un collega. Descrivendo ogni passo, potresti individuare errori o capire meglio
+                                il problema. La paperella non risponde, ma ti aiuta a chiarire i tuoi pensieri.
+                            </div>
+                        </div>
+                    </div><!-- .accordion-item -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+                                Quali sono i vantaggi di usare una paperella di gomma per i programmatori?
+                            </button>
+                        </h2>
+                        <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                La paperella di gomma aiuta i programmatori a pensare in modo critico e a verbalizzare i
+                                problemi. Questo processo può portare a nuove intuizioni e soluzioni. Inoltre, è un
+                                ottimo strumento antistress e aggiunge un tocco di personalità alla scrivania.
+                            </div>
+                        </div>
+                    </div><!-- .accordion-item -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faqCollapseThree" aria-expanded="false"
+                                aria-controls="faqCollapseThree">
+                                Posso usare la paperella di gomma indipendentemente dal linguaggio di programmazione che
+                                utilizzo?
+                            </button>
+                        </h2>
+                        <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Assolutamente sì! La paperella di gomma è universale e funziona con qualsiasi linguaggio
+                                di programmazione. Non importa se stai scrivendo in Python, Java, C++ o qualsiasi altro
+                                linguaggio, la paperella sarà sempre pronta ad ascoltarti.
+                            </div>
+                        </div>
+                    </div><!-- .accordion-item -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#faqCollapseThree" aria-expanded="false"
+                                aria-controls="faqCollapseThree">
+                                Quanto dettagliatamente devo spiegare il mio codice alla paperella di gomma?
+                            </button>
+                        </h2>
+                        <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree"
+                            data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Dovresti spiegare ogni dettaglio del tuo codice. Più sei dettagliato, più è probabile
+                                che tu scopra errori o ottenga nuove prospettive. Questo processo ti costringe a
+                                rivedere attentamente ogni parte del tuo lavoro.
+                            </div>
+                        </div>
+                    </div><!-- .accordion-item -->
+                </div><!-- .accordion -->
+            </div><!-- .container #faqs -->
+        </div><!-- .row #faqs -->
+        <!-- TODO bullet points -->
+        <div class="container my-5 row mx-auto" id="bullet-points">
+            <div class="col-12 col-md-4 text-center p-4">
+                <svg class="bullet-icon">
+                    <use href="assets/icons.svg#balloon"></use>
+                </svg>
+                <h3>Spedizione Veloce</h3>
+                <p>Ricevi la tua paperella di gomma in tempi rapidi con il nostro servizio di spedizione efficiente
+                    e affidabile.</p>
+            </div>
+            <div class="col-12 col-md-4 text-center p-4 border-end border-start border-2">
+                <svg class="bullet-icon">
+                    <use href="assets/icons.svg#bag-heart"></use>
+                </svg>
+                <h3>Garanzia Soddisfatti o Rimborsati</h3>
+                <p>Se non sei completamente soddisfatto della tua paperella di gomma, offriamo una garanzia di
+                    rimborso senza complicazioni.</p>
+            </div>
+            <div class="col-12 col-md-4 text-center p-4">
+                <svg class="bullet-icon">
+                    <use href="assets/icons.svg#handiplast"></use>
+                </svg>
+                <h3>Assistenza Clienti Dedicata</h3>
+                <p>Il nostro team di assistenza clienti è sempre pronto ad aiutarti con qualsiasi domanda o problema
+                    riguardante il tuo acquisto.</p>
+            </div>
+        </div><!-- .container #bullet-points -->
+        <!-- TODO area newsletter con form -->
+        <div class="container my-5 row mx-auto col-12 col-lg-6" id="newsletter">
+            <div class="col-12 col-md-6 mx-auto text-center p-4">
+                <h2>Iscriviti alla nostra Newsletter</h2>
+                <p>Rimani aggiornato sulle ultime novità, offerte esclusive e consigli utili sul debugging con la
+                    paperella di gomma.</p>
+                <form class="d-flex flex-column flex-md-row justify-content-center align-items-center"
+                    id="newsletter-form">
+                    <input type="email" class="form-control mb-3 mb-md-0 me-md-3" placeholder="Inserisci la tua email"
+                        required>
+                    <button type="submit" class="btn btn-primary">Iscriviti</button>
+                </form>
+            </div>
+        </div><!-- .container #newsletter -->
+    </div><!-- .container-fluid -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/swiper.js"></script>
 </body>
+
 </html>
