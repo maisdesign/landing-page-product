@@ -90,6 +90,11 @@ p {
 .bullet-icon{
     width: 48px;
     height: 48px;
-    fill: var(--primary-color);
+    /*
+    * MANNAGGIA A ME
+    * fill: var(--primary-color);
+    * stroke: var(--primary-color);
+    */
+    color: var(--primary-color)
     margin-bottom: 12px;
 }
