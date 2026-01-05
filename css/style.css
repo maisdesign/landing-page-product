@@ -108,6 +108,26 @@ p {
 * NAVBAR + OFFCANVAS
 *
 */
+/* Icona hamburger custom */
+.hamburger-icon {
+    fill: var(--text-color);
+    transition: fill 0.2s;
+}
+
+.navbar-toggler:hover .hamburger-icon {
+    fill: var(--primary-color);
+}
+
+/* Rimuovi il bordo default del toggler */
+.navbar-toggler {
+    border: none;
+    padding: 0.5rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    outline: 2px solid var(--primary-color);
+}
 
 @media (min-width: 992px) {
   .navbar-nav {
