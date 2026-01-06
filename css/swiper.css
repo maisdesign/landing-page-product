@@ -60,3 +60,7 @@
   min-height: 300px;
   /* altezza fissa per il paragrafo */
 }
+
+section#recensioni{
+  min-height: 650px;
+}

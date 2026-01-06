@@ -53,8 +53,7 @@ h5,
 h6 {
     font-family: 'Poppins', sans-serif;
     color: var(--text-color);
-    margin-bottom: 15px;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 2rem;
     /* Settato a 2rem nonostante le indicazioni del pdf per renderlo leggibile */
     line-height: 1.5;
@@ -65,6 +64,10 @@ h6 {
 h1 {
     font-size: 4rem;
     /* Settato a 4rem nonostante le indicazioni del pdf per renderlo leggibile */
+}
+
+h2 {
+    font-size: 3rem;
 }
 
 a {
@@ -88,7 +91,8 @@ p {
 
 @media (max-width: 576px) {
     .overlay p {
-        font-size: 0.875rem; /* 14px su mobile piccolo */
+        font-size: 0.875rem;
+        /* 14px su mobile piccolo */
     }
 }
 
@@ -112,56 +116,56 @@ p {
 }
 
 @media (max-width:576px) {
-  h1 {
-      font-size: 2.5rem;
-  }
-  h2 {
-      font-size: 2rem;
-  }
-  h3 {
-      font-size: 1.5rem;
-  }
-  p {
-      font-size: 0.9rem;
-  }
-  
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
 }
 
 @media (max-width:400px) {
-  h1 {
-      font-size: 2rem;
-  }
-  h2 {
-      font-size: 1.5rem;
-  }
-  h3 {
-      font-size: 1.2rem;
-  }
-  p {
-      font-size: 0.8rem;
-  }
-  
-} 
+    h1 {
+        font-size: 2rem;
+    }
 
-#faqs h2.text-center.mb-4
-Specificity: (1,2,1)
- {
-    font-size: 2.5rem;
-    /* Per override */
- }
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+}
 
 /*
 * ICONS STYLES
 *
 */
 
-.rating-icon{
+.rating-icon {
     width: 24px;
     height: 24px;
     fill: var(--rating-color);
     margin-right: 4px;
 }
-.mini{
+
+.mini {
     width: 12px;
     height: 12px;
 }
@@ -170,10 +174,10 @@ Specificity: (1,2,1)
     font-weight: 700;
     font-size: 1.2rem;
     margin-top: 4px;
-    color:var(--secondary-color)
+    color: var(--secondary-color)
 }
 
-.bullet-icon{
+.bullet-icon {
     width: 48px;
     height: 48px;
     /*
@@ -190,7 +194,8 @@ Specificity: (1,2,1)
 *
 */
 section {
-  scroll-margin-top: 80px; /* Altezza navbar + padding */
+    scroll-margin-top: 80px;
+    /* Altezza navbar + padding */
 }
 
 /*
@@ -198,7 +203,7 @@ section {
 *
 */
 
-.offcanvas-header img{
+.offcanvas-header img {
     width: 40px;
     height: auto;
 }
@@ -225,10 +230,11 @@ section {
 }
 
 @media (min-width: 992px) {
-  .navbar-nav {
-    flex-direction: row;
-    gap: 2rem; /* spazio tra i link */
-  }
+    .navbar-nav {
+        flex-direction: row;
+        gap: 2rem;
+        /* spazio tra i link */
+    }
 }
 
 .navbar-brand img {
@@ -249,42 +255,42 @@ section {
 
 /* Offcanvas sidebar verticale */
 .offcanvas-body .navbar-nav {
-  flex-direction: column;
-  gap: 1rem;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .offcanvas-body .nav-link {
-  padding: 1rem;
-  border-bottom: 1px solid #eee;
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
 }
 
 /* Desktop navbar orizzontale */
 @media (min-width: 992px) {
-  #navbarDesktop .navbar-nav {
-    flex-direction: row;
-    gap: 1.5rem;
-  }
+    #navbarDesktop .navbar-nav {
+        flex-direction: row;
+        gap: 1.5rem;
+    }
 }
 
 /* Offcanvas mobile verticale con padding */
 .offcanvas-body .navbar-nav {
-  flex-direction: column;
-  gap: 0;
+    flex-direction: column;
+    gap: 0;
 }
 
 .offcanvas-body .nav-link {
-  padding: 1rem 1.5rem;
-  border-bottom: 1px solid #eee;
-  transition: background-color 0.2s;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.2s;
 }
 
 .offcanvas-body .nav-link:hover {
-  background-color: #f8f9fa;
+    background-color: #f8f9fa;
 }
 
 .offcanvas-body .nav-link.active {
-  color: var(--primary-color);
-  text-decoration: none;
+    color: var(--primary-color);
+    text-decoration: none;
 }
 
 /*
@@ -310,7 +316,7 @@ section {
 */
 
 .overlay {
-    padding: 1rem; 
+    padding: 1rem;
     max-width: 90%;
 }
 
@@ -338,7 +344,8 @@ section {
     .overlay .btn {
         font-size: 0.875rem;
         padding: 0.5rem 1rem;
-        width: 100%; /* Full width su mobile piccolo */
+        width: 100%;
+        /* Full width su mobile piccolo */
         max-width: 250px;
     }
 }
@@ -379,7 +386,8 @@ section {
     background-image: none;
 }
 
-.duck-faqs-accordion .accordion-button.collapsed::after, .duck-faqs-accordion .accordion-button:not(.collapsed)::after{
+.duck-faqs-accordion .accordion-button.collapsed::after,
+.duck-faqs-accordion .accordion-button:not(.collapsed)::after {
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--text-color);
@@ -406,19 +414,21 @@ section {
     color: var(--secondary-color);
 }
 
-.accordion-item.duck-faqs-accordion-item, .accordion-button.accordion-duck-faqs-button:not(.collapsed), .accordion-button.accordion-duck-faqs-button.collapsed{
+.accordion-item.duck-faqs-accordion-item,
+.accordion-button.accordion-duck-faqs-button:not(.collapsed),
+.accordion-button.accordion-duck-faqs-button.collapsed {
     border: none;
     background: none;
 }
 
-.accordion-button.accordion-duck-faqs-button{
+.accordion-button.accordion-duck-faqs-button {
     font-size: 1.8rem;
     font-weight: 600;
     color: var(--text-color);
     padding: 1rem 2.5rem;
 }
 
-.accordion-body.accordion-duck-faqs-body{
+.accordion-body.accordion-duck-faqs-body {
     font-size: 1.2rem;
     line-height: 1.5;
     color: var(--text-color);
@@ -432,18 +442,51 @@ section {
 */
 
 .newsletter-button {
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
     background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    z-index: 10;
 }
 
 .newsletter-icon-svg {
     width: 48px;
     height: 48px;
-    /* fill: var(--secondary-color); */
     color: var(--secondary-color)
+}
+
+.duck-newsletter-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc; /* SOLO linea sotto */
+    border-radius: 0;
+    padding: 12px 50px 12px 0;
+    width: 100%;
+    font-size: 0.95rem;
+}
+
+.duck-newsletter-input:focus {
+    outline: none;
+    border-bottom-color: var(--text-color);
+}
+
+.duck-newsletter-input::placeholder {
+    color: #888;
+}
+
+.newsletter-button {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
 }
 
 /*
