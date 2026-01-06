@@ -2,6 +2,7 @@ var swiper = new Swiper(".mySwiper", {
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
+    type: "bullets",
   },
   autoplay: {
     delay: 2500,
