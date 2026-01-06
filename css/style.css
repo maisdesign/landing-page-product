@@ -364,3 +364,24 @@ section {
 .duck-faqs-accordion .accordion-button:hover::after {
     color: var(--secondary-color);
 }
+
+
+/*
+* NEWSLETTER STYLES
+*
+*/
+
+.newsletter-button {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+}
+
+.newsletter-icon-svg {
+    width: 48px;
+    height: 48px;
+    /* fill: var(--secondary-color); */
+    color: var(--secondary-color)
+}
