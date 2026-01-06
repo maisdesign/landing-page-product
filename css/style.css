@@ -24,6 +24,11 @@ body {
 .focus-background {
     background-color: var(--focus-background);
 }
+
+footer.bg-body-tertiary.text-center.py-4.m-0.focus-background {
+    background-color: var(--focus-background) !important;
+}
+
 /*
 * TYPOGRAPHY STYLES
 *
