@@ -269,13 +269,23 @@ section {
 }
 
 /*
+*
+* HERO OVERLAY STYLES
+*/
+
+.hero-images{
+    max-width: 1920px;
+    margin 0 auto;
+}
+
+/*
 * Overlay
 *
 */
 
 .overlay {
-    padding: 1rem; /* Default mobile */
-    max-width: 90%; /* Limita larghezza su mobile */
+    padding: 1rem; 
+    max-width: 90%;
 }
 
 @media (min-width: 768px) {
@@ -311,6 +321,11 @@ section {
 * Punti di forza
 *
 */
+.sell-points {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .sell-points img {
     max-width: 100%;
     height: auto;

@@ -32,3 +32,7 @@ Thumbs.db
 fromDesigner/
 Netlify/
 icon-preview.html
+.github/agents/backendmentor.agent.md
+.github/agents/Boolean.agent.md
+.github/agents/javamentor.agent.md
+.github/agents/webmentor.agent.md
