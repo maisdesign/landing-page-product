@@ -328,3 +328,39 @@ section {
         border-right: 2px solid #dee2e6;
     }
 }
+
+/*
+* FAQ STYLES
+*
+*/
+
+.duck-faqs-accordion .accordion-button::after {
+    background-image: none;
+}
+
+.duck-faqs-accordion .accordion-button.collapsed::after, .duck-faqs-accordion .accordion-button:not(.collapsed)::after{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-left: auto;
+}
+
+/* Chiuso (con +) */
+.duck-faqs-accordion .accordion-button.collapsed::after {
+    content: "+";
+}
+
+/* Aperto (con -) */
+.duck-faqs-accordion .accordion-button:not(.collapsed)::after {
+    content: "−";
+}
+
+@media (max-width: 768px) {
+    .duck-faqs-accordion .accordion-button::after {
+        font-size: 1.2rem;
+    }
+}
+
+.duck-faqs-accordion .accordion-button:hover::after {
+    color: var(--secondary-color);
+}
