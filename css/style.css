@@ -438,31 +438,18 @@ section {
 
 /*
 * NEWSLETTER STYLES
-*
 */
 
-.newsletter-button {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    z-index: 10;
-}
-
-.newsletter-icon-svg {
-    width: 48px;
-    height: 48px;
-    color: var(--secondary-color)
+#newsletter-form {
+    position: relative; /* QUESTO MANCAVA */
+    max-width: 500px;
+    margin: 1.5rem auto 0;
 }
 
 .duck-newsletter-input {
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid #ccc; /* SOLO linea sotto */
+    border-bottom: 1px solid #ccc;
     border-radius: 0;
     padding: 12px 50px 12px 0;
     width: 100%;
@@ -487,6 +474,14 @@ section {
     border: none;
     padding: 0;
     cursor: pointer;
+    z-index: 10;
+}
+
+.newsletter-icon-svg {
+    width: 28px;
+    height: 28px;
+    color: var(--secondary-color);
+    display: block;
 }
 
 /*
