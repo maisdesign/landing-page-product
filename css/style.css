@@ -69,6 +69,17 @@ p {
     font-size: 1.2rem;
 }
 
+/* Caso speciale per overlay hero */
+.overlay p {
+    font-size: 1rem;
+}
+
+@media (max-width: 576px) {
+    .overlay p {
+        font-size: 0.875rem; /* 14px su mobile piccolo */
+    }
+}
+
 /* Media query per schermi più piccoli */
 @media (max-width: 768px) {
     h1 {
@@ -201,6 +212,22 @@ section {
   }
 }
 
+.navbar-brand img {
+    height: 40px;
+    width: auto;
+}
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+        height: 30px;
+    }
+}
+
+.nav-link:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
 /* Offcanvas sidebar verticale */
 .offcanvas-body .navbar-nav {
   flex-direction: column;
@@ -239,4 +266,65 @@ section {
 .offcanvas-body .nav-link.active {
   color: var(--primary-color);
   text-decoration: none;
+}
+
+/*
+* Overlay
+*
+*/
+
+.overlay {
+    padding: 1rem; /* Default mobile */
+    max-width: 90%; /* Limita larghezza su mobile */
+}
+
+@media (min-width: 768px) {
+    .overlay {
+        padding: 2rem;
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 992px) {
+    .overlay {
+        padding: 3rem;
+        max-width: 70%;
+    }
+}
+
+.overlay .btn {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    white-space: nowrap;
+}
+
+@media (max-width: 576px) {
+    .overlay .btn {
+        font-size: 0.875rem;
+        padding: 0.5rem 1rem;
+        width: 100%; /* Full width su mobile piccolo */
+        max-width: 250px;
+    }
+}
+
+/*
+* Punti di forza
+*
+*/
+.sell-points img {
+    max-width: 100%;
+    height: auto;
+    margin: 2rem 0;
+}
+
+/*
+*
+*  Sezione bullet points
+*/
+
+@media (min-width: 768px) {
+    .bullet-middle {
+        border-left: 2px solid #dee2e6;
+        border-right: 2px solid #dee2e6;
+    }
 }
