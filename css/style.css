@@ -1,4 +1,7 @@
-/* Ora impostiamo la palette di colori con variabili CSS */
+/*
+* COLOR VARIABLES
+*
+*/
 :root {
     --primary-color: #2E45CC;
     --secondary-color: #04DF6C;
@@ -441,7 +444,7 @@ section {
 */
 
 #newsletter-form {
-    position: relative; /* QUESTO MANCAVA */
+    position: relative;
     max-width: 500px;
     margin: 1.5rem auto 0;
 }
