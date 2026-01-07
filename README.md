@@ -10,17 +10,17 @@
 
 ## 📋 Indice
 
-- [Anteprima](#anteprima)
-- [Scelte Tecniche](#scelte-tecniche)
-- [Struttura Progetto](#struttura-progetto)
-- [Features Implementate](#features-implementate)
-- [Criticità Risolte](#criticità-risolte)
-- [Performance & Ottimizzazioni](#performance--ottimizzazioni)
-- [Come Lanciare](#come-lanciare)
-- [Browser Support](#browser-support)
-- [Crediti](#crediti)
-- [Licenza](#licenza)
-- [Contatti](#contatti)
+- [Anteprima](#🎨-anteprima)
+- [Scelte Tecniche](#🛠️-scelte-tecniche)
+- [Struttura Progetto](#📁-struttura-progetto)
+- [Features Implementate](#✨-features-implementate)
+- [Criticità Risolte](#🐛-criticità-risolte)
+- [Performance & Ottimizzazioni](#⚡-performance--ottimizzazioni)
+- [Come Lanciare](#🚀-come-lanciare)
+- [Browser Support](#🌐-browser-support)
+- [Crediti](#📝-crediti)
+- [Licenza](#📄-licenza)
+- [Contatti](#🤝-contatti)
 
 ---
 
