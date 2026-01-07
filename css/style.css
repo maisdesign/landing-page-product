@@ -28,8 +28,8 @@ body {
     background-color: var(--focus-background);
 }
 
-footer.bg-body-tertiary.text-center.py-4.m-0.focus-background {
-    background-color: var(--focus-background) !important;
+.duck-footer-custom {
+    background-color: var(--background-color);
 }
 
 /*
@@ -183,11 +183,6 @@ p {
 .bullet-icon {
     width: 48px;
     height: 48px;
-    /*
-    * MANNAGGIA A ME
-    fill: var(--primary-color);
-    * stroke: var(--primary-color);
-    */
     color: var(--primary-color);
     margin-bottom: 12px;
 }

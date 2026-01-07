@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rubber Duck Debugging</title>
+    <title>Rubber Duck Debuggings</title>
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.webp">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.webp">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.webp">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2e45cc">
     <meta name="msapplication-TileColor" content="#da532c">
@@ -17,10 +17,11 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="css/normalize.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />-->
     <link rel="stylesheet" href="css/swiper.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/normalize.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -31,7 +32,7 @@
 <body id="top">
     <nav class="navbar bg-body-tertiary sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="/img/logo.png" alt="Duck Logo"></a>
+            <a class="navbar-brand" href="#"><img src="/img/logo.webp" alt="Logo" width="160" height="40"></a>
             <!-- Navbar Desktop -->
             <div class="d-none d-lg-flex" id="navbarDesktop">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -68,7 +69,7 @@
     <div class="offcanvas offcanvas-end" id="navOffcanvas" tabindex="-1" aria-labelledby="offcanvasLabel"
         data-bs-backdrop="false" data-bs-scroll="true">
         <div class="offcanvas-header">
-            <img src="/img/logo.png" alt="Duck Logo">
+            <img src="/img/logo.webp" alt="Duck Logo">
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -98,15 +99,15 @@
         <section class="hero container-fluid align-items-center m-0 p-0">
             <div class="hero-images row m-0 p-0">
                 <div class="col-md-6 col-12 m-0 p-0">
-                    <img src="/img/banner-image.png" alt="Rubber Duck" class="img-fluid">
+                    <img src="/img/banner-image.webp" alt="Rubber Duck" class="img-fluid">
                 </div>
                 <div class="col-md-6 col-12 position-relative m-0 p-0">
-                    <img src="/img/banner-bg.png" alt="Code Example" class="img-fluid">
+                    <img src="/img/banner-bg.webp" alt="Code Example" class="img-fluid">
                     <div class="overlay position-absolute top-50 start-50 translate-middle text-center">
                         <h1>Rubber Duck Debuggings</h1>
                         <p>Spiegare il codice ad una paperella di gomma aiuta i programmatori a chiarire il pensiero e
                             individuare errori nascosti.</p>
-                        <a href="#" class="btn btn-outline-dark">ACQUISTALA SUBITO!</a>
+                        <a href="#paperelle" class="btn btn-outline-dark">ACQUISTALA SUBITO!</a>
                     </div>
                 </div>
             </div>
@@ -135,7 +136,7 @@
                 </div>
             </div>
             <div class="col-md-4 col-12 text-center p-4">
-                <img src="/img/invisible.png" alt="Rubber Duck Feature" class="img-fluid">
+                <img src="/img/invisible.webp" alt="Rubber Duck Feature" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-12 col-12 text-center p-4">
                 <div class="reason-item">
@@ -169,7 +170,6 @@
                                 avrebbero fatto impazzire. È anche un ottimo antistress nelle giornate difficili!
                                 David William"</p>
                             <h5>David William - Feb 22, 2023</h5>
-                            <!-- TODO usare un ciclo per generare le stelle? -->
                             <div class="rating">
                                 <svg class="rating-icon">
                                     <use href="/assets/icons.svg#star-fill"></use>
@@ -282,7 +282,7 @@
                 <div class="row">
                     <div class="col-md-4 col-12 mb-4">
                         <figure>
-                            <img src="/img/product-item1.png" class="card-img-top" alt="cool-duck">
+                            <img src="/img/product-item1.webp" class="card-img-top" alt="cool-duck">
                             <figcaption>
                                 <div class="rating">
                                     <svg class="rating-icon mini">
@@ -308,7 +308,7 @@
                     </div>
                     <div class="col-md-4 col-12 mb-4">
                         <figure>
-                            <img src="/img/product-item2.png" class="card-img-top" alt="Classic-duck">
+                            <img src="/img/product-item2.webp" class="card-img-top" alt="Classic-duck">
                             <figcaption>
                                 <div class="rating">
                                     <svg class="rating-icon mini">
@@ -334,7 +334,7 @@
                     </div>
                     <div class="col-md-4 col-12 mb-4">
                         <figure>
-                            <img src="/img/product-item3.png" class="card-img-top" alt="Bat-duck">
+                            <img src="/img/product-item3.webp" class="card-img-top" alt="Bat-duck">
                             <figcaption>
                                 <div class="rating">
                                     <svg class="rating-icon mini">
@@ -365,7 +365,7 @@
             <h2 class="text-center mb-4">FAQs</h2>
             <div class="row align-items-start">
                 <div class="container my-5 col-md-6 col-12 mx-0 p-0">
-                    <img src="/img/single-image2.png" alt="FAQ Image" class="img-fluid" />
+                    <img src="/img/single-image2.webp" alt="FAQ Image" class="img-fluid" />
                 </div>
                 <div class="container my-5 col-md-6 col-12 mx-0 p-0">
                     <div class="accordion duck-faqs-accordion" id="faqAccordion">
@@ -481,8 +481,8 @@
                     <h2>Iscriviti per rimanere aggiornato</h2>
                     <p>Iscriviti alla nostra newsletter per rimanere aggiornato su sconti e novità</p>
                     <form class="newsletter-form-wrapper" id="newsletter-form">
-                        <input type="email" class="duck-newsletter-input" placeholder="Lascia la tua email qui..."
-                            required>
+                        <label for="email" class="visually-hidden">Email</label>
+                        <input type="email" id="email" class="duck-newsletter-input" placeholder="Lascia la tua email qui..." required>
                         <button type="submit" class="newsletter-button" title="Iscriviti">
                             <svg class="newsletter-icon-svg">
                                 <use href="/assets/icons.svg#send"></use>
@@ -494,7 +494,7 @@
         </section><!-- .container-fluid #newsletter-->
 
     </main><!-- .container-fluid -->
-    <footer class="bg-body-tertiary text-center py-4 m-0 focus-background">
+    <footer class="duck-footer-custom bg-body-tertiary text-center py-4 m-0 focus-background">
         <nav aria-label="Social media" class="social-icons mb-3">
             <a href="#" title="Facebook" class="me-3">
                 <svg class="social-icon">
@@ -530,9 +530,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
+    <!-- SwiperJs -->
+     <!-- Qui mi sono infognato per cercare di immaginare come avrei potuto caricare Swiper in modo dinamico in un progetto reale, con fallback statico -->
     <script src="js/swiper.js"></script>
+    <script src="js/swiper-loader.js"></script>
+      
+
+
 </body>
 
 </html>

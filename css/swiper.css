@@ -38,7 +38,8 @@
   height: 16px;
   background-color: var(--primary-color);
   border: 2px solid var(--primary-color);
-  box-shadow: 0 0 0 4px rgba(46, 69, 204, 0.2);
+  box-shadow: 0 0 0 4px rgba(46, 69, 204, 0.2); 
+  box-shadow: 0 0 0 4px rgb(from var(--primary-color) r g b / 0.2);
   /* Crea l'effetto cerchio esterno maledetto */
 }
 
