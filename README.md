@@ -1,4 +1,4 @@
-# ��� Rubber Duck Debugging - Landing Page
+# 🦆 Rubber Duck Debugging - Landing Page
 
 > Una landing page per promuovere il prodotto "Rubber Duck Debuggings" - Il miglior compagno per il debug del codice.
 
@@ -8,7 +8,7 @@
 
 ---
 
-## ��� Indice
+## 📋 Indice
 
 - [Anteprima](#anteprima)
 - [Scelte Tecniche](#scelte-tecniche)
@@ -22,17 +22,17 @@
 
 ---
 
-## ��� Anteprima
+## 🎨 Anteprima
 
 ![Landing Page Preview](full-page-screenshot.png)
 
-**��� Demo Live:** [https://landingpageboolean.netlify.app/](https://landingpageboolean.netlify.app/)
+**🔗 Demo Live:** [https://landingpageboolean.netlify.app/](https://landingpageboolean.netlify.app/)
 
-**��� Lighthouse Report:** Disponibile in `lighthouse-report.html`
+**📊 Lighthouse Report:** Disponibile in `lighthouse-report.html`
 
 ---
 
-## ���️ Scelte Tecniche
+## 🛠️ Scelte Tecniche
 
 ### Framework & Librerie
 
@@ -119,7 +119,7 @@ Il browser riserva lo spazio prima che l'immagine carichi → zero layout shift.
 
 ---
 
-## ��� Struttura Progetto
+## 📁 Struttura Progetto
 
 ```
 landing-page-product/
@@ -165,7 +165,7 @@ landing-page-product/
 - [x] **SVG sprite system** per icone scalabili
 - [x] **Semantic HTML5** (nav, header, main, footer, section)
 
-### ��� Features Bonus
+### 🌟 Features Bonus
 
 - [x] **Progressive enhancement** con caricamento Swiper dinamico
 - [x] **Immagini WebP** per performance ottimali
@@ -177,7 +177,7 @@ landing-page-product/
 
 ---
 
-## ��� Criticità Risolte
+## 🐛 Criticità Risolte
 
 ### 1. Race Condition Menu Mobile
 **Problema:** Click su link menu mobile → menu chiude ma scroll avviene prima della chiusura animazione → scatta nel punto sbagliato.
@@ -281,7 +281,7 @@ Vedi report completo in `lighthouse-report.html`
 
 ---
 
-## ��� Come Lanciare
+## 🚀 Come Lanciare
 
 ### Prerequisiti
 - Browser moderno (Chrome, Firefox, Safari, Edge)
@@ -314,7 +314,7 @@ cd landing-page-product
 
 ---
 
-## ��� Browser Support
+## 🌐 Browser Support
 
 | Browser | Versione Minima | Note |
 |---------|----------------|------|
@@ -334,7 +334,7 @@ cd landing-page-product
 
 ---
 
-## ��� Crediti
+## 📝 Crediti
 
 **Sviluppato da:** Marco Cardia  
 **Corso:** Boolean Academy - Full Stack Web Development  
@@ -344,14 +344,14 @@ cd landing-page-product
 
 ---
 
-## ��� Licenza
+## 📄 Licenza
 
 Progetto educativo - Boolean Academy  
 © 2024 BooLanding Product. Designed by Boolean.
 
 ---
 
-## ��� Contatti
+## 🤝 Contatti
 
 - **GitHub:** [maisdesign](https://github.com/maisdesign)
 - **LinkedIn:** [Marco Cardia](https://www.linkedin.com/in/marco-cardia-taky/)
@@ -359,4 +359,4 @@ Progetto educativo - Boolean Academy
 
 ---
 
-**Made with ❤️ and ��� by a Boolean student**
+**Made with ❤️ and 🦆 by a Boolean student**
