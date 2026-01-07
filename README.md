@@ -19,6 +19,8 @@
 - [Come Lanciare](#come-lanciare)
 - [Browser Support](#browser-support)
 - [Crediti](#crediti)
+- [Licenza](#licenza)
+- [Contatti](#contatti)
 
 ---
 
